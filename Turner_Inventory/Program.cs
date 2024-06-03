@@ -11,7 +11,10 @@ namespace Turner_Inventory
 
             while (running)
             {
+                Console.WriteLine("Welcome to the Vibe Inventory Program!");
+                Console.WriteLine();
                 Console.WriteLine("Choose from the following options:");
+                Console.WriteLine();
                 Console.WriteLine("1. Add a Bicycle to the shipment");
                 Console.WriteLine("2. Add a Lawn Mower to the shipment");
                 Console.WriteLine("3. Add a Cell Phone to the shipment");
