@@ -52,7 +52,8 @@ namespace Turner_Inventory
                         Console.WriteLine($"Total shipping cost for this order is {totalCost:C}");
                         break;
                     case "8":
-                        shipper.Clear();
+                        string clearMessage = shipper.Clear();
+                        Console.WriteLine(clearMessage);
                         break;
                     case "9":
                         running = false;

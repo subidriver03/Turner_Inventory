@@ -45,10 +45,10 @@ namespace Turner_Inventory
             return items.Sum(i => i.ShipCost);
         }
 
-        public void Clear()
+        public string Clear()
         {
             items.Clear();
-            Console.WriteLine("The cart has been cleared.");
+            return "The cart has been cleared.";
         }
     }
 }
